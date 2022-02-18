@@ -1,1 +1,24 @@
 body {}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-content {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
