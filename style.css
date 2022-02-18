@@ -1,8 +1,14 @@
-body {}
+body {
+    margin: 0;
+}
 
 .hero {
     background-color: #1F2937;
     color: white;
+}
+
+.hero-logo {
+    font-size: 24px;
 }
 
 .hero-content {
@@ -21,4 +27,34 @@ ul {
     display: flex;
     gap: 30px;
     list-style-type: none;
+    font-size: 18px;
+}
+
+.hero-main {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-right>h1 {
+    font-size: 48px;
+}
+
+.hero-right>p {
+    font-size: 18px;
+}
+
+.hero-left>img{
+    width: 600px;
+    height: 300px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+    border-style: none;
+    width: 90px;
+    height: 35px;
 }
