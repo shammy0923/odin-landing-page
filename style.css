@@ -58,3 +58,22 @@ ul {
     width: 90px;
     height: 35px;
 }
+
+
+.info > h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.subtext {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.subtext-img {
+    width: 15rem;
+}
+
