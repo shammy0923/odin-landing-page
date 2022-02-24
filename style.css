@@ -81,8 +81,8 @@ ul {
 }
 
 .quote {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     background-color: #E5E7EB;
 }
 
@@ -102,4 +102,33 @@ ul {
 .quoter {
     text-align: right;
     font-size: 20px;
+}
+
+.call-to-action {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    color: white;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: .3rem;
+}
+
+.sign-up-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-btn {
+    font-size: 1.5rem;
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    color: white;
 }
