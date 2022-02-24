@@ -59,6 +59,9 @@ ul {
     height: 35px;
 }
 
+.info{
+    padding-bottom: 3rem;
+}
 
 .info > h1 {
     text-align: center;
@@ -77,3 +80,26 @@ ul {
     width: 15rem;
 }
 
+.quote {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: justify;
+
+}
+
+.quoter {
+    text-align: right;
+    font-size: 20px;
+}
